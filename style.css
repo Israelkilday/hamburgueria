@@ -1,33 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style: none;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
 }
 
 :root {
+    --dark: #1e1c2a;
     --red: #d63a25;
     --white: #fff;
-    --dark: #1e1c2a;
 }
 
 body {
-    color: var(--dark);
     background: var(--white);
+    color: var(--dark);
 }
 
 .navigation {
-    display: flex;
     align-items: center;
+    box-shadow: 0 0.1rem 0.5rem #ccc; 
+    display: flex;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #ccc;
-     
 }
+
+.navigation .logo {
+    color: var(--red);
+    font-size: 1.7rem;
+    font-weight: 600;    
+}
+
+.logo span {
+    color: var(--dark);
+}
+
+.navigation ul {
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+}
+
+.navigation ul li a {
+    color: var(--dark);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.navigation ul li a:hover {
+    color: var(--red)
+}
+
+.navigation i {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.menu {
+    cursor: pointer;
+    display: none;
+}
+
+.menu .bar {
+    border-radius: 3px;
+    background: var(--dark);
+    display: block;
+    height: 3px;
+    margin: 5px auto;
+    transition: all o.3s;
+    width: 28px;
+
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3) {
+    background: var(--red);
+}
+
+
+
+
+
+
 
 
 
