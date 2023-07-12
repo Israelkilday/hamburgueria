@@ -10,9 +10,9 @@
 }
 
 :root {
-    --dark: #1e1c2a;
     --red: #d63a25;
     --white: #fff;
+    --dark: #1e1c2a;
 }
 
 body {
@@ -76,7 +76,7 @@ body {
     display: block;
     height: 3px;
     margin: 5px auto;
-    transition: all o.3s;
+    transition: all 0.3s;
     width: 28px;
 }
 
@@ -94,12 +94,42 @@ body {
     padding: 0px 10%;
 }
 
-img {
-    width: 360px;
+.home_text {
+    max-width: 37rem; 
 }
 
+.home_text .text_h4 {
+    font-size: 1.5rem;
+    color: var(--red);
+    margin-bottom: 1rem;
+}
 
+.home_text .text_h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
 
+.home_text p {
+    margin-bottom: 4rem;
+}
+
+.home_btn {
+    padding: 15px 45px;
+    background: var(--red);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.home_btn:hover {
+    background:#fc4c35;
+}
+
+.home_img img {
+    width: 100%;
+}
 
 
 
