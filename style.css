@@ -23,7 +23,7 @@ body {
 .navigation {
     align-items: center;
     background: var(--white);
-    box-shadow: 0 0.1rem 0.5rem #ccc; 
+    box-shadow: 0 0.1rem 0.5rem #ccc;
     display: flex;
     justify-content: space-between;
     padding: 18px 40px;
@@ -36,7 +36,7 @@ body {
 .navigation .logo {
     color: var(--red);
     font-size: 1.7rem;
-    font-weight: 600;    
+    font-weight: 600;
 }
 
 .logo span {
@@ -95,7 +95,7 @@ body {
 }
 
 .home_text {
-    max-width: 37rem; 
+    max-width: 37rem;
 }
 
 .home_text .text_h4 {
@@ -124,19 +124,35 @@ body {
 }
 
 .home_btn:hover {
-    background:#fc4c35;
+    background: #fc4c35;
 }
 
 .home_img img {
     width: 100%;
 }
 
+@media(max-width: 785px) {
+    .navigation {
+        padding: 18px 20px;
+    }
 
+    .menu {
+        display: block;
+    }
 
+    .nav_menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background: var(--white);
+        gap: -10px;
+        transition: 0.3s;
+    }
 
-
-
-
-
-
-
+    .nav_item {
+        margin: 16px 0;
+    }
+}
