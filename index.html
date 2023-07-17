@@ -23,11 +23,11 @@
                 <i class='bx bx-search bx-tada' ></i>
             </ul>
             
-            <div class="menu">
+            <button onclick="animacao()" class="menu2">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </nav>
     </header>
     <main>
@@ -44,9 +44,16 @@
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <script>
+        function animacao() {
+            const btn = document.querySelector(".menu2");
+            const navMenu = document.querySelector(".nav_menu");
 
-    <footer></footer>
+            btn.classList.toggle("ativo");
+            navMenu.classList.toggle("ativo");
+        }
+    </script>
+
 </body>
 
 </html>
