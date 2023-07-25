@@ -18,7 +18,6 @@
 
 body {
     background: var(--white);
-    color: var(--dark);
 }
 
 .navigation {
@@ -199,7 +198,6 @@ body {
     .home {
         flex-direction: column;
         gap: 5rem;
-        overflow: hidden;
         padding: 100px 2px;
         text-align: center;
     }
