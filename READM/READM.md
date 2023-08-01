@@ -6,6 +6,8 @@ Hamburgueria é uma landing page que fiz usando somente HTML, CSS, e javascript.
 
 ## Layout
 
+## Layout Responsivo
+
 ## Tecnologias ultilizadas
 
 - HTML
@@ -14,7 +16,7 @@ Hamburgueria é uma landing page que fiz usando somente HTML, CSS, e javascript.
 
 ## Link do Projeto
 
-https://israelkilday.github.io/project_alura/aluramidi-curso-aula5/
+https://israelkilday.github.io/hamburgueria/
 
 ## Autor
 
