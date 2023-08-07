@@ -6,7 +6,7 @@ Hamburgueria é uma landing page que fiz usando somente HTML, CSS, e javascript.
 
 ## 💻 Desktop && 📱 Mobile
 
-https://github.com/Israelkilday/hamburgueria/assets/101229204/8ec9ab69-d174-4cb2-b432-93e83e13b7ca
+https://github.com/Israelkilday/hamburgueria/assets/101229204/cf9fabda-7ae2-4121-a20a-5cb9481b37f6
 
 ## 🚀 Tecnologias ultilizadas
 
